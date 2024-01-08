@@ -10,7 +10,7 @@ type socialLinkType = {
 const socialLink: socialLinkType = [
   {
     title: "Twitter",
-    url: "https://twitter.com/omegaStrikes",
+    url: "https://twitter.com/oguzhancarts",
     icon: <BsTwitter />,
   },
   {

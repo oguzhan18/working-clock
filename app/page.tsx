@@ -181,7 +181,7 @@ const Home: React.FC = () => {
               </button>
             </div>
             <h2 id="session-label" className="text-sm sm:text-lg font-semibold">
-              Session Length
+              Time Length
             </h2>
           </div>
         </section>

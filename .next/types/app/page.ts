@@ -1,4 +1,4 @@
-// File: /Users/oguzhancart/Desktop/fcc-clock-master/app/page.tsx
+// File: /Users/oguzhancart/Desktop/working-clock/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
