@@ -7,7 +7,6 @@ export const meta: Metadata = {
   applicationName: "Working Clock",
   keywords: [
     "Timer app",
-    "Pomodoro technique",
     "Productivity tool",
     "Time management",
     "Session length",
@@ -20,14 +19,14 @@ export const meta: Metadata = {
     "React app",
     "Working clock"
   ],
-  creator: "OMEGA",
-  publisher: "OMEGA",
+  creator: "OguzhanCart",
+  publisher: "OguzhanCart",
 };
 
 // Additional Twitter metadata
 export const twitterMeta = {
   card: "summary",
-  site: "@omegaStrike", // Replace with your actual Twitter handle
+  site: "@oguzhancart", // Replace with your actual Twitter handle
   title: "Working Clock - Timer Application",
   description:
     "Enhance your productivity with the Working Clock timer app. Customize session and break lengths for effective time management.",

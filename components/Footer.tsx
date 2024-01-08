@@ -27,7 +27,7 @@ function Footer() {
       <p className="text-center py-2 font-light text-sm">
         Designed and developed by{" "}
         <strong className="text-yellow-500">Working Clock</strong>
-        <Link href={"https://oguzhancart.dev/"}> (OMEGA)</Link>
+        <Link href={"https://oguzhancart.dev/"}> (OguzhanCart)</Link>
       </p>
     </footer>
   );
