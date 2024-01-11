@@ -1,5 +1,5 @@
-import { FaFreeCodeCamp, FaFigma } from "react-icons/fa";
-import { BsTwitter, BsLinkedin } from "react-icons/bs";
+import { FaFreeCodeCamp, FaFigma, FaCodepen } from "react-icons/fa";
+import { BsTwitter, BsLinkedin, BsInstagram } from "react-icons/bs";
 
 type socialLinkType = {
   title: string;
@@ -10,23 +10,18 @@ type socialLinkType = {
 const socialLink: socialLinkType = [
   {
     title: "Twitter",
-    url: "https://twitter.com/oguzhancarts",
-    icon: <BsTwitter />,
+    url: "https://www.instagram.com/oguzhan_cart",
+    icon: <BsInstagram />,
   },
   {
     title: "LinkedIn",
-    url: "https://linkedin.com/in/baliram-singh",
+    url: "https://www.linkedin.com/in/o%C4%9Fuzhan-%C3%A7art-b73405199/",
     icon: <BsLinkedin />,
   },
   {
-    title: "Freecodecamp",
-    url: "https://freecodecamp.com/ome9a",
-    icon: <FaFreeCodeCamp />,
-  },
-  {
-    title: "Figma",
-    url: "https://www.figma.com/@ome9a",
-    icon: <FaFigma />,
+    title: "Codepen",
+    url: "https://codepen.io/oguzhan1881",
+    icon: <FaCodepen />,
   },
 ];
 
