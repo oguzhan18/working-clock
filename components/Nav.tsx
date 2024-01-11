@@ -11,13 +11,6 @@ function Nav() {
           Working Clock
         </Link>
       </h1>
-      <Link
-        href={"https://github.com/oguzhan18/working-clock"}
-        className="border-2 border-transparent p-[4px] sm:p-2 px-3 sm:px-5 rounded-xl bg-yellow-800 hover:border-yellow-950 shadow-lg shadow-yellow-700/50 flex items-center gap-3"
-      >
-        <BsGithub />
-        GitHub
-      </Link>
     </nav>
   );
 }

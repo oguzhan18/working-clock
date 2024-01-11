@@ -74,7 +74,7 @@ const Home: React.FC = () => {
 
   return (
     <main className="flex items-center justify-center min-h-screen h-full p-3 relative z-10 ">
-      <section className="pt-8 p-4 bg-yellow-950/0 shadow-xl shadow-yellow-800/50 rounded-3xl max-w-[600px] w-full border-2 border-yellow-900">
+      <section className="pt-8 p-4 bg-gray-950/0 shadow-xl shadow-gray-800/50 rounded-3xl max-w-[600px] w-full border-2 border-gray-900">
         {/* Working Clock display */}
         <section className="text-center relative max-w-[350px] w-full mx-auto">
           <button
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
             onClick={() => setIsActive(!isActive)}
             title="Working Clock with play/pause button"
             id="start_stop"
-            className="w-full border-4 border-yellow-500 relative bg-yellow-600 shadow-xl shadow-yellow-500/50 aspect-square rounded-full flex flex-col items-center justify-center"
+            className="w-full border-4 border-gray-500 relative bg-gray-950 shadow-xl shadow-gray-500/50 aspect-square rounded-full flex flex-col items-center justify-center"
           >
             <div id="time-left" className="text-[4rem] font-bold mt-4">
               {formatTime(timeLeft)}
@@ -120,11 +120,11 @@ const Home: React.FC = () => {
                 onClick={() =>
                   !isActive && setBreakLength(Math.max(1, breakLength - 1))
                 }
-                className="w-full border-4 text-yellow-700 border-yellow-800 hover:border-yellow-900 rounded-l-full flex items-center justify-start text-2xl pl-2"
+                className="w-full border-4 text-gray-700 border-gray-800 hover:border-gray-900 rounded-l-full flex items-center justify-start text-2xl pl-2"
               >
                 <FiMinus />
               </button>
-              <span className="absolute text-xl left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] bg-yellow-700 p-2 rounded-full w-14 aspect-square flex items-center justify-center">
+              <span className="absolute text-xl left-[50%] translate-x-[-50%] top-[50%] translate-y-[-50%] bg-gray-700 p-2 rounded-full w-14 aspect-square flex items-center justify-center">
                 {breakLength}
               </span>
               <button
@@ -134,7 +134,7 @@ const Home: React.FC = () => {
                 onClick={() =>
                   !isActive && setBreakLength(Math.min(60, breakLength + 1))
                 }
-                className="w-full bg-yellow-800 hover:bg-yellow-900 rounded-r-full border-2 border-transparent flex items-center justify-end text-2xl pr-2"
+                className="w-full bg-gray-800 hover:bg-gray-900 rounded-r-full border-2 border-transparent flex items-center justify-end text-2xl pr-2"
               >
                 <BsPlus />
               </button>
@@ -147,12 +147,12 @@ const Home: React.FC = () => {
             </h2>
           </div>
 
-          <span className="block h-20 w-1 bg-yellow-900/50" id="divider"></span>
+          <span className="block h-20 w-1 bg-gray-900/50" id="divider"></span>
           {/* session length setting */}
           <div className="text-center w-full flex flex-col justify-center items-center gap-3 ">
             <div
               id="session-length"
-              className="text-xl p-1 aspect-square border-2 border-yellow-600 w-20 rounded-full flex items-center justify-center bg-yellow-800 shadow-xl shadow-yellow-600/50"
+              className="text-xl p-1 aspect-square border-2 border-gray-600 w-20 rounded-full flex items-center justify-center bg-gray-800 shadow-xl shadow-gray-600/50"
             >
               {sessionLength}
             </div>
@@ -161,7 +161,7 @@ const Home: React.FC = () => {
                 id="session-decrement"
                 title="decrease session length"
                 disabled={isActive ? true : false}
-                className="p-4 rounded-l-full text-xl w-full bg-yellow-900 flex items-center justify-center border-2 border-r-0 border-transparent hover:border-yellow-600 group"
+                className="p-4 rounded-l-full text-xl w-full bg-gray-900 flex items-center justify-center border-2 border-r-0 border-transparent hover:border-gray-600 group"
                 onClick={() => handleSessionLength("D")}
               >
                 <span className="group-hover:scale-125">
@@ -171,7 +171,7 @@ const Home: React.FC = () => {
               <button
                 id="session-increment"
                 title="increase session length"
-                className="p-4 rounded-r-full text-xl w-full flex items-center justify-center bg-yellow-900 border-2 border-l-0 border-transparent hover:border-yellow-600 group"
+                className="p-4 rounded-r-full text-xl w-full flex items-center justify-center bg-gray-900 border-2 border-l-0 border-transparent hover:border-gray-600 group"
                 disabled={isActive ? true : false}
                 onClick={() => handleSessionLength("I")}
               >

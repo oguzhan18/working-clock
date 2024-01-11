@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${GoogleFont.className} bg-gradient-to-tr from-yellow-950 to-yellow-900`}
+        className={`${GoogleFont.className} bg-gradient-to-tr from-gray-950 to-gray-900`}
       >
         <Nav />
         <div className="fixed top-0 left-0 w-full h-screen z-0">
